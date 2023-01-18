@@ -31,7 +31,14 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>To do List</h1>
+        <div className="row">
+          <div className="block">
+            <h1>
+              <span>To do List</span>
+            </h1>
+          </div>
+        </div>
+        {/* <h1>To do List</h1> */}
       </header>
       <Form
         inputText={inputText}

@@ -3,7 +3,7 @@ import Todo from "./Todo.js";
 const TodoList = ({ todos, setTodos, filteredTodos }) => {
   //console.log(todos);
   return (
-    <div className="todo-container">
+    <div className="todo-container wrapper">
       <ul className="todo-list">
         {filteredTodos.map((todo) => (
           <Todo
