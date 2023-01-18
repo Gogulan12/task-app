@@ -10,6 +10,8 @@ function App() {
   const [filteredTodos, setFilteredTodos] = useState([]);
 
   useEffect(() => {
+    {
+    }
     filterHandler();
   }, [todos, status]);
 
