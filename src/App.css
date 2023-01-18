@@ -162,7 +162,8 @@ span:after {
 .complete-btn {
   padding-right: 15px;
   /* border-radius: 999px; */
-  accent-color: lightblue;
+  accent-color: #76b1b2;
+  color: white;
 }
 
 /* ///////////////////////// */
@@ -180,8 +181,9 @@ span:after {
 }
 .rounded-checkbox:checked {
   appearance: auto;
+  color: white;
   clip-path: circle(50% at 50% 50%);
-  background-color: #66bb6a;
+  /* background-color: #66bb6a; */
 }
 
 /* //////////////////////////// */
@@ -210,7 +212,8 @@ span:after {
 
 .todo-item {
   list-style: none;
-  border-bottom: 3px solid black;
+  border-bottom: 3px dotted black;
+
   /* border-radius: 20px; */
   width: 400px;
   padding: 8px 25px 0 25px;
@@ -221,4 +224,40 @@ span:after {
 
 .select {
   margin-top: 30px;
+}
+
+button {
+  box-shadow: inset 0px 1px 0px 0px #76b1b2;
+  background: linear-gradient(to bottom, #76b1b2 5%, #76b1b2 100%);
+  background-color: #76b1b2;
+  border: 1px solid #314179;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  /* font-family: Arial;
+  font-size: 13px; */
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #76b1b2 5%, #76b1b2 100%);
+  background-color: #76b1b2;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+.todo-input {
+  padding: 5px;
+}
+
+.filter-todo {
+  background-color: #76b1b2;
+  border-style: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
 }

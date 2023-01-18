@@ -33,6 +33,7 @@ const Todo = ({ text, todo, todos, setTodos }) => {
           type="checkbox"
           onClick={completeHandler}
           className="complete-btn rounded-checkbox"
+          // {todo.completed ? input.checked : input.unchecked}
           id="checkbox"
         />
         <label htmlFor="checkbox"></label>
